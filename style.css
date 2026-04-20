@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border:0;
+
+
+}
+
+.hero, footer {
+    background-color: #1f2937;
+}
+
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-second-text, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 200px 36px 150px;
+    flex: 1 1 0%;
+}
+
+.content{
+    padding-right: 50px
+}
+
+button {
+    background-color: #3882f6;
+    color: #ffff;
+    width: 150px;
+    height: 50px; 
+    border: 2px solid #ffff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+.info-text {
+    max-width: 200px;
+}
+
+.info-text > p {
+    text-align: center;
+}
+
+.info-text > img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 250px
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.sign {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    padding: 0 125px;
+    margin: 0;
+    border: 0;
+}
+
+.section-four {
+    height: 50vh;
+    background-color: #f9faf8;
+    padding: 200px;
+}
+
+.call-to-action{
+    
+    color: #e5e7eb;
+    font-size: 22px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    gap: 100px;
+
+}
+
