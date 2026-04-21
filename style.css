@@ -11,7 +11,7 @@ body {
 
 }
 
-.hero, footer {
+.hero, .footer {
     background-color: #1f2937;
 }
 
@@ -101,7 +101,7 @@ button {
 
 .section-three {
     background-color: #e5e7eb;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,9 +128,10 @@ button {
 }
 
 .section-four {
-    height: 50vh;
+    height: 25vh;
     background-color: #f9faf8;
     padding: 200px;
+    display: flex;
 }
 
 .call-to-action{
@@ -141,8 +142,20 @@ button {
     border-radius: 12px;
     display: flex;
     align-items: center;
-    padding: 0 100px;
-    gap: 100px;
-
+    padding: 50px 50px;
+    gap: 50px;
 }
 
+.phrase {
+    font-weight: 900;
+}
+
+.footer {
+    height: 10vh;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
